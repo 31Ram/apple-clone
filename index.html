@@ -1,51 +1,84 @@
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Apple Clone Migracode</title>
 </head>
+
 <body>
-    <header class="navbar">
-        <img class="navbar-button" src="./resources/images/globalnav_apple_image.svg">
-        <a class="navbar-link">Tienda</a>
-        <a class="navbar-link">Mac</a>
-        <a class="navbar-link">iPad</a>
-        <a class="navbar-link">iPhone</a>
-        <a class="navbar-link">Watch</a>
-        <a class="navbar-link">AirPods</a>
-        <a class="navbar-link">Tv y Casa</a>
-        <a class="navbar-link">Solo en Apple</a>
-        <a class="navbar-link">Accessorios</a>
-        <a class="navbar-link">Soporte</a>
-        <img class="navbar-button" src="./resources/images/globalnav_search_white.svg">
-        <img class="navbar-button" src="./resources/images/globalnav_bag.svg">
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li>
+                    <img class="navbar-button" src="./resources/images/globalnav_apple_image.svg" />
+                </li>
+                <li><a class="navbar-link">Tienda</a></li>
+                <li><a class="navbar-link">Mac</a></li>
+                <li><a class="navbar-link">iPad</a></li>
+                <li><a class="navbar-link">iPhone</a></li>
+                <li><a class="navbar-link">Watch</a></li>
+                <li><a class="navbar-link">AirPods</a></li>
+                <li><a class="navbar-link">Tv y Casa</a></li>
+                <li><a class="navbar-link">Solo en Apple</a></li>
+                <li><a class="navbar-link">Accessorios</a></li>
+                <li><a class="navbar-link">Soporte</a></li>
+                <li>
+                    <img class="navbar-button" src="./resources/images/globalnav_search_white.svg" />
+                </li>
+                <li>
+                    <img class="navbar-button" src="./resources/images/globalnav_bag.svg" />
+                </li>
+            </ul>
+        </nav>
     </header>
-    <div class="banner-unicef">
-        <img class="logo-unicef" src="./resources/images/unicef_logo_dark.png">
-        <a class="link" href="https://web.archive.org/web/20220804105029/itmss://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/buyCharityGiftWizard?charity=10220">
+
+    <section class="banner-unicef">
+        <img class="logo-unicef" src="./resources/images/unicef_logo.png" />
+        <a class="link-banner"
+            href="https://web.archive.org/web/20220804105029/itmss://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/buyCharityGiftWizard?charity=10220">
             Ayuda a las familias afectadas por la guerra de Ucrania
         </a>
-    </div>
-    <div id="macbook-air-banner">
-        <div class="macbook-air">
-            <h2 class="headline">MacBook Air</h2>
-            <img id="text-macbook-air" src="resources/images/text_superpotenciado_macbookair.png" alt="">
-            <div class="information-buy-links">
-                <a class="link" href="#">
-                    Más información
-                </a>        
-                <a class="link" href="#">
-                    Comprar
-                </a>
+    </section>
+
+    <section class="container">
+        <div id="homepage">
+            <h2 class="italic headline"><span>Superpotencia</span> para tus estudios.</h2>
+            <h3 class="subhead">Ahorra en un Mac o&nbsp;iPad. Y&nbsp;llévate una tarjeta regalo de&nbsp;hasta
+                150&nbsp;€.</h3>
+            <a class="link" href="https://www.apple.com/es-edu/shop/back-to-school">Comprar</a>
+        </div>
+
+
+        <div id="macbook-air-banner">
+            <div class="information">
+                <h2 class="headlineBanner">MacBook&nbsp;Air</h2>
+                <img src="resources/images/apple_images/logo_hero_macbookair__edl9uovq56wm_largetall.png" alt="" />
+                <div class="container-links">
+                    <a class="link" href="#">Más información</a>
+                    <a class="link" href="#">Comprar</a>
+                </div>
             </div>
         </div>
-    </div>
-    
-  
+
+        <div id="iphone">
+
+            <h2 class="headline">iPhone&nbsp;13</h2>
+            <h3 class="subhead">Tu nuevo superpoder.</h3>
+            <div class="container-links">
+                <a class="link" href="#">Más información</a>
+                <a class="link" href="#">Comprar</a>
+            </div>
+
+        </div>
+
+    </section>
+
     <footer>
         <p>Eso es el contenedor del footer</p>
     </footer>
 </body>
+
 </html>
