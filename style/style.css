@@ -226,6 +226,89 @@ body {
   margin: 10px 0 0 0;
   /* border: 2px solid yellowgreen; */
 }
+.promos{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.watch-series{
+  background-color: #fff;
+  background-image: url("../resources/images/promo_watch.jpg");
+  background-repeat: no-repeat;
+  background-position: 46%;
+  background-size: cover;
+  margin: 13px 0 0 0;
+  
+  width: 48.8%;
+  height: 96%;
+}
+
+.iphone13 {
+  background-color: #fff;
+  background-image: url("../resources/images/promo_iphone13pro.jpeg");
+  background-repeat: no-repeat;
+  background-position: 46%;
+  background-size: cover;
+  margin: 13px 0 0 0;
+  
+
+  width: 48.8%;
+  height: 96%;
+}
+
+.macbook-pro {
+  background-color: #fff;
+  background-image: url("../resources/images/promo_mbp13.jpeg");
+  background-repeat: no-repeat;
+  background-position: 46%;
+  background-size: cover;
+  margin: 13px 0 0 0;
+  
+  width: 48.8%;
+  height: 96%;
+}
+
+.ipadair {
+  background-color: #fff;
+  background-image: url("../resources/images/promo_ipadair_avail.jpeg");
+  background-repeat: no-repeat;
+  background-position: 46%;
+  background-size: cover;
+  margin: 13px 0 0 0;
+  
+
+  width: 48.8%;
+  height: 96%;
+}
+
+.fitness {
+  background-color: #fff;
+  background-image: url("../resources/images/tile_applefitness.jpeg");
+  background-repeat: no-repeat;
+  background-position: 46%;
+  background-size: cover;
+  margin: 13px 0 0 0;
+
+
+  width: 48.8%;
+  height: 96%;
+}
+
+.tv {
+  background-color: #fff;
+  background-image: url("../resources/images/tile.jpg");
+  background-repeat: no-repeat;
+  background-position: 46%;
+  background-size: cover;
+  margin: 13px 0 0 0;
+
+
+  width: 48.8%;
+  height: 96%;
+}
 
 .information{
   display: inline-flex;
